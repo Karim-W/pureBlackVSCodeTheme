@@ -2,12 +2,41 @@
 	"name": "Pure Black",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#08090a",
+		"editor.background": "#000000",
 		"editor.foreground": "#000000",
-		"activityBarBadge.background": "#a3a3a3",
-		"sideBarTitle.foreground": "#000000",
+		"sideBarTitle.foreground": "#FFFFFF",
+		"activityBar.activeBackground": "#363636",
+		"activityBar.activeBorder": "#FFFFFF",
+		"activityBar.background": "#000000",
+		"activityBar.foreground": "#ffffff",
+		"activityBar.inactiveForeground": "#ffffff",
+		"activityBarBadge.background": "#945bc4",
+		"activityBarBadge.foreground": "#ffffff",
+		"sash.hoverBorder": "#1a1a1a",
+		"toolbar.activeBackground": "#000000",
+		"titleBar.activeBackground": "#000000",
+		"titleBar.activeForeground": "#e7e7e7",
+		"titleBar.inactiveBackground": "#00000099",
+		"titleBar.inactiveForeground": "#e7e7e799",
+		"minimap.background":"#000000",
+		"sideBar.background":"#000000",
+		"scrollbarSlider.background":"#3f3e3e",
+		"scrollbarSlider.activeBackground":"#000000",
+		"scrollbarSlider.hoverBackground":"#000000",
+		"editor.selectionBackground":"#000000",
+		"editorLineNumber.activeForeground":"#ffffff",
+		"editor.selectionBackground":"#b9b4b454"
 	},
 	"tokenColors": [
+		{
+			"name": "Markdown - Fenced Bode Block",
+			"scope": [
+				"punctuation.definition.fenced.markdown"
+			],
+			"settings": {
+				"foreground": "#00000050"
+			}
+		},
 		{
 			"name": "Comment",
 			"scope": [
@@ -16,7 +45,8 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#408557"
+				"foreground": "#408557",
+
 			}
 		},
 		{
@@ -577,15 +607,7 @@
 				"foreground": "#00000050"
 			}
 		},
-		{
-			"name": "Markdown - Fenced Bode Block",
-			"scope": [
-				"punctuation.definition.fenced.markdown"
-			],
-			"settings": {
-				"foreground": "#00000050"
-			}
-		},
+		
 		{
 			"name": "Markdown - Fenced Bode Block Variable",
 			"scope": [
