@@ -3,7 +3,7 @@
 	"type": "dark",
 	"colors": {
 		"editor.background": "#000000",
-		"editor.foreground": "#000000",
+		"editor.foreground": "#fffafa91",
 		"sideBarTitle.foreground": "#FFFFFF",
 		"activityBar.activeBackground": "#363636",
 		"activityBar.activeBorder": "#FFFFFF",
@@ -34,7 +34,7 @@
 				"punctuation.definition.fenced.markdown"
 			],
 			"settings": {
-				"foreground": "#00000050"
+				"foreground": "#fcfcfc50"
 			}
 		},
 		{
